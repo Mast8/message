@@ -94,6 +94,10 @@ button,input {
     width: 30px;
 }
 
+img {
+    cursor: pointer;
+}
+
 .user {
     position: relative;
 }
@@ -169,6 +173,7 @@ button,input {
 }
 
 .side-menu ul li a:hover, .side-menu ul li .active {
+    background-color: #9386a2;
     color: #fff;
 }
 
@@ -179,6 +184,7 @@ button,input {
 }
 
 .chat {
+  cursor: pointer;
   width: 100%;
   display: flex;
   align-items: center;
